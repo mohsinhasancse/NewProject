@@ -1,0 +1,181 @@
+body{
+  margin: 0; padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+.header{
+  background: #3E5C9A;
+  overflow: hidden;
+padding: 8px 0;
+}
+.container{
+  width: 65%;
+  margin: auto;
+}
+.logo-area{
+  width: 30%;
+  float: left;
+}
+.logo-area img{
+  width: 136px;
+  margin-top: 24px;
+}
+.login-area{
+  width: 70%;
+  float: left;
+}
+.login-area form{
+  float: right;
+}
+.login-area label,.login-area input{
+  display: block;
+}
+.login-area label{
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.login-area .email,.login-area .password,.login-area .login{
+  float:left;
+  color: white;
+  margin-right: 14px;
+}
+.login-area .login{
+  margin-right: 0;
+}
+.login-area input[type="text",type="password"]{
+  border:1px solid black;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px 5px;
+}
+.login-area .password a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+.login-area .password a:hover{
+  text-decoration: underline;
+}
+.login-area input[type="submit"]{
+  padding: 1px 6px;
+      font-weight: 400;
+      color: white;
+      background: #4267B1;
+      margin-top: 24px;
+}
+
+.singUp-area{
+  padding: 20px 0;
+}
+.singUp-area::after{
+  content: '';
+  display: block;
+  clear:
+
+}
+.left-area{
+  width: 55%;
+  float: left;
+}
+.left-area p{
+  font-size: 20px;
+  font-weight: 600;
+}
+.left-area img{
+  width: 93%;
+}
+.right-area{
+  width: 45%;
+  float: right;
+}
+.right-area h2{
+  font-size: 33px;
+  color: black;
+  margin: 0;
+}
+.right-area h4{
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.right-area input[type="text"],.right-area input[type="password"]{
+  font-size: 18px;
+border-radius: 5px;
+box-sizing: border-box;
+padding: 8px 10px;
+border: 1px solid black;
+margin: 5px 0;
+width: 100%;
+}
+.full-name{
+  overflow: hidden;
+}
+.first-name{width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.surname{width: 48%;
+  float: left;
+}
+.birthday{
+  overflow: hidden;
+}
+.birthday h4{
+margin-top: 0;
+margin-bottom: 5px;
+}
+.birth-day{
+overflow: hidden;
+float: left;
+width: 200px;
+}
+.birth-day select{
+border: 1px solid black;
+padding: 5px;
+float: left;
+}
+.birth-link{
+  float: left;
+  width: 150px;
+      line-height: 15px;
+}
+.birth-link a{
+font-size: 12px;
+text-decoration: none;
+}
+.birth-link a:hover{
+  text-decoration: underline;
+}
+.gender {
+font-size: 19px;
+font-weight: bold;
+}
+.text-box p{
+  font-size: 13px;
+    width: 85%;
+  }
+.text-box  a{
+text-decoration: none;
+}
+.text-box  a:hover{
+  text-decoration: underline;
+}
+.btn{}
+.btn input[type="submit"]{
+  background: green;
+    padding: 9px 56px;
+    border-radius: 12px;
+    color: white;
+    font-size: 17px;
+}
+.last {
+  margin-top: 10px;
+  margin-bottom: 51px;
+
+}
+.last a{
+  text-decoration: none;
+}
+.last a:hover{
+  text-decoration: underline;
+}
